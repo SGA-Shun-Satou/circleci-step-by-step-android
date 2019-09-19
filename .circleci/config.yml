@@ -13,6 +13,6 @@ jobs:
       - run:
           name: Multi-line commands - echo & echo
           command: |
-            echo $CIRCLE_RePOSITORY_URL
+            echo $CIRCLE_REPOSITORY_URL
             echo $CIRCLE_BRANCH
             
